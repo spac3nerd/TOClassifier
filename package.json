@@ -1,0 +1,13 @@
+{
+  "name": "4900FinalUtils",
+  "version": "0.0.1",
+  "scripts": {
+    "convert": "node ./data/convertOneLine.js",
+    "restrictCharacters": "node ./data/restrictCharacters.js",
+    "convertCSV": "node ./data/convertToCSV.js"
+  },
+  "private": true,
+  "dependencies": {
+    "csv-writer": "~1.6.0"
+  }
+}
